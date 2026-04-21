@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Run Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <h1>🏃 Run Tracker</h1>
+
+    <div class="stats">
+      <p>Distance: <span id="distance">0.00000</span> m</p>
+      <p>Time: <span id="time">00:00</span></p>
+      <p>Pace: <span id="pace">0</span> min/km</p>
+    </div>
+
+    <div class="controls">
+        <button id="startBtn">Start Run</button>
+
+        <button id="pauseBtn" style="display:none;">Pause</button>
+        <button id="resumeBtn" style="display:none;">Resume</button>
+        <button id="finishBtn" style="display:none;">Finish</button>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
